@@ -1,0 +1,42 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "The Cups Hub Fix", HidePremium = false, SaveConfig = true, ConfigFolder = "The Cups hub",IntroText = "The Cups Hub"})
+local Tab = Window:MakeTab({
+	Name = "Auto-Win",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Cups / Use it when the Cups spawn",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Louimegz39/Thecupsyh/main/Cups?token=GHSAT0AAAAAACF3NEJSP5OTWTRU44XLPSHKZGQMDMA"))() 
+  	end    
+})
+Tab:AddButton({
+	Name = "Keyboard",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Sword bot/ press x to able/disable",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/1/main/bot'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "plinko",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Louimegz39/Thecupsyh/main/Plinko?token=GHSAT0AAAAAACF3NEJS67EI2VLDL6DYV4RMZGQMVPA"))() 
+  	end    
+})
+Tab:AddButton({
+	Name = "Block drop / Works on Any device",
+	Callback = function()
+	  Loadstring(game:HttpGet("https://raw.githubusercontent.com/Louimegz39/Thecupsyh/main/Blockdrop?token=GHSAT0AAAAAACF3NEJTNIUZIKRVYEJKX5AGZGQMCEQ"))() 
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
