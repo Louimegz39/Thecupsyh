@@ -8,6 +8,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Cups / Use it when the Cups spawn",
 	Callback = function()
+
 	  while true do
     local Descendants = workspace:GetDescendants()
  
